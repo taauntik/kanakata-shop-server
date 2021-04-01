@@ -47,4 +47,4 @@ app.get("/", (req, res) => {
   res.send("SO Now Let's begin the main thing that you wanna do");
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
